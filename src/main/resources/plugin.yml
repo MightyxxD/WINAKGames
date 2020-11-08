@@ -1,0 +1,13 @@
+name: WINAKGames
+main: nl.communitynetwerk.winakgames.WINAKGames
+authors: [MightyxxD]
+description: WINAK hunger games event
+version: ${project.version}
+website: www.winak.be
+api-version: '1.13'
+softdepend: [Multiverse-Core, MultiWorld, Vault, My_Worlds, GoldenEnchants, mcMMO, MythicMobs, PlaceholderAPI, XConomy]
+
+commands:
+  winakgames:
+    aliases: [wk, hungergames, hg]
+    description: WINAKGames hoofd commando

@@ -1,0 +1,255 @@
+#  This is the language file
+#  Change the messages to your liking
+#  Supports '&' color codes
+#  Messages that contain <> indicate things that the plugin replaces, such as <player> or <distance>
+#  Comments in this file will be removed if we update messages during a plugin update
+#  To restore these messages, backup this file, delete it, and restart your server, this will create a new lang file with all the notes
+
+#  GENERAL PLUGIN MESSAGES
+prefix: '&8&lHunger&6&lGames &8» '
+
+#  GAME MESSAGES
+#  <player> will be replaced with name of player
+player-joined-game: '&8[&a+&8] &6<player> &7heeft de game betreden.'
+player-left-game: '&8[&c-&8] &6<player> &7heeft de game verlaten.'
+game-started: '&7De arena &6<arena> &7begint in &630 seconden&7.'
+game-join: '&7Gebruik: &6/winakgames join <arena> &7om mee te spelen.'
+game-countdown: '&7De game start in &6<timer> &7seconden.'
+game-almost-over: '&7De game is bijna gedaan, vecht tot de dood.'
+game-ending-minsec: '&7De game eindigt in &6<minutes> minuut(en) &7en &6<seconds> second(en)&7.'
+game-ending-min: '&7De game eindigt in &6<minutes> minuut(en)&7.'
+game-ending-sec: '&7De game eindigt in &6<seconds> second(en)&7.'
+game-border-closing: '&7De border komt eraan, je hebt &6<seconds> &7seconden om naar het midden van de arena te gaan.'
+game-chests-refill: '&7Kisten zijn hervult.'
+
+# &6<min> &7/&6<sec> &7will be replaced with the remaining minutes and seconds in a game
+game-bossbar: '&7De game eindigt in &6<min> min. <sec> sec.'
+
+#  &6<amount> &7will be replaced with amount of players left to start a game
+players-to-start: '&6<amount> &7nodig om te starten.'
+arena-not-ready: '&7Deze arena is niet klaar. Wacht even voor dat je betreed.'
+arena-spectate: '&7Je kan deze arena spectaten met het commando &6/winakgames spectate <arena>&7.'
+game-full: '&7is momenteel vol.'
+
+#  &6<arena> &7will be replaced with name of arena the player won in
+#  &6<winner> &7will be replaced with name of winner
+player-won: '&6<winner> &7heeft gewonnen in de arena &6<arena>&7.'
+
+#  &6<amount> &7will be replaced with the amount the player will receive on win
+winning-amount: '&7You received $&6<amount> &7for winning HungerGames.'
+
+#  SPECTATOR
+spectator-compass: '&7Spectator compass'
+spectator-head-lore: '&7Klik om naar speler te teleporteren'
+spectator-start-title: '&7Je bent nu aan het spectaten.'
+
+#  KIT MESSAGES
+kit-join-header: '&7> &7----------[Welcome to HungerGames]----------&6<'
+kit-join-msg: '&7         - Pick a kit using /hg kit &6<kit-name> &7'
+kit-join-available: '&7Available Kits:'
+kit-join-footer: '&7> &7------------------------------------------&6<'
+kit-no-perm: '&cGeen toestemming.'
+kit-doesnt-exist: '&7Deze kit bestaat niet.'
+kit-disabled: '&7Kits zijn uitgeschakeld in deze game.'
+
+#  SCOREBOARD
+scoreboard-title: '&8&lWINAK&6&lGames'
+players-alive: '&6Tributes'
+players-alive-num: '&7<num> levende'
+scoreboard-arena: "Arena: "
+
+#  TEAMS
+team-invite-1: '&7*                                                                             *'
+team-invite-2: '&7| &6<inviter> &7just invited you to a Team.'
+team-invite-3: '&7| Type /hg team accept To join.'
+team-invite-4: '&7*                                                                             *'
+joined-team: '&7You successfully joined this team.'
+# &6<name> &7will be replaced with team name
+team-prefix: "[Team-&6<name> &7]"
+team-suffix: ""
+team-created: "Created team: &6<name> &7"
+team-already-exists: "Team &6<name> &7already exists."
+team-already-have: "You have already created a team: &6<name> &7"
+team-none: "You do not have a team, create one first with command '&7/hg team create &6<name> &7'"
+
+#  CHEST DROPS
+chest-drop-1: '&7*                                                                                   *'
+chest-drop-2: '&7| Een care package: &6<x> &7, &6<y> &7, &6<z> &7'
+
+#  COMPASS
+#  &6<player> &7will be replaced with the name of the nearest player
+#  &6<distance> &7will be replaced with the distance of the nearest player
+compass-nearest-player: '&7Dichtstbijzijnde speler: &6<player> &8| &6Afstand: &6<distance> &7'
+
+#  FREE ROAM
+roam-game-started: '&7[]---------[ The game has started. ]---------[]'
+#  &6<roam> &7will be replaced with the time the players can roam for
+roam-time: '&7You have &6<roam> &7seconds to roam without taking damage.'
+roam-finished: '&7Free-Roam is over, PVP is now enabled.'
+
+#  GAME STATUSES
+status-running: '&aRunning'
+status-stopped: '&cStopped'
+status-ready: '&aReady'
+status-waiting: '&6Waiting...'
+status-broken: '&4&lBROKEN'
+status-rollback: '&6Restoring...'
+status-notready: '&cNotReady'
+status-beginning: '&aRunning'
+status-countdown: '&aStarting...'
+
+#  DEATH MESSAGES
+death-fallen: '&6&lDOOD &8» &7'
+death-explosion: '&6<player> &7werd aan stukken geblazen.'
+death-custom: '&6<player> &7werd gedood door een onbekende oorzaak.'
+death-fall: '&6<player> &7viel tot hun dood.'
+death-falling-block: '&6<player> &7werd verpletterd door een blok.'
+death-fire: '&6<player> &7werd levend verbrand.'
+death-projectile: '&6<player> &7is geraakt door een projectiel.'
+death-lava: '&6<player> &7viel in een put met lava.'
+death-magic: '&6<player> &7werd vernietigd door magie.'
+death-suicide: '&6<player> &7kon de WINAK Games niet aan.'
+death-other-cause: '&6<player> &7werd gedood door &6<cause>&7.'
+death-player: '&6<player> &7werd gedood door &6<killer> &7met behulp van een &6<weapon>&7.'
+death-zombie: '&6<player> &7werd aan stukken gescheurd door een zombie.'
+death-skeleton: '&6<player> &7werd in het gezicht geschoten door een skelet.'
+death-spider: '&6<player> &7levend opgegeten door een spin.'
+death-drowned: '&6<player> &7werd verscheurd door een verdronken zombie.'
+death-trident: '&6<player> &7werd gespietst door een drietand.'
+death-stray: '&6<player> &7werd in het gezicht geschoten door een zwerver.'
+death-other-entity: '&6<player> &7is spontaan overleden.'
+
+#  COMMANDS
+## Spawn
+cmd-spawn-same: '&7Je kunt geen twee spawns op dezelfde locatie hebben.'
+cmd-spawn-set: '&7Je hebt spawn &6#<number> &7ingesteld.'
+
+## Base
+cmd-base-noperm: '&cGeen toestemming.'
+cmd-base-nogame: '&7Je zit niet in een geldig spel.'
+cmd-base-noregion: '&7Je bent niet in een geldige regio.'
+cmd-base-wrongusage: '&7Verkeerd gebruik:'
+
+## Create
+cmd-create-need-selection: '&7Je moet een selectie maken voordat u een arena maakt.'
+cmd-create-divisible-1: '&7Tijd in seconden moet deelbaar zijn door 30.'
+cmd-create-divisible-2: '&7BV:90 is deelbaar door 30'
+cmd-create-minmax: '&7min-spelers kunnen niet meer zijn dan max-spelers.'
+cmd-create-created: '&7Je hebt de arena &6<arena> &7gemaakt.'
+cmd-create-add-spawns: "Je bent nu klaar om enkele spawns in te stellen met &6/winakgames addspawn&7."
+
+## Delete
+cmd-delete-attempt: '&7Er wordt geprobeerd om &6<arena> &7te verwijderen.'
+cmd-delete-stopping: '&7- Spel loopt. Stoppen..'
+cmd-delete-kicking: '&7- Spelers gedetecteerd. Kicken..'
+cmd-delete-deleted: '&7De arena &6<arena> &7is verwijderd.'
+cmd-delete-failed: '&7Arena kan niet worden verwijderd.'
+cmd-delete-noexist: '&7Deze arena bestaat niet.'
+
+## Join
+cmd-join-in-game: '&7Je zit al in een spel.'
+cmd-join-no-money: '&7You do not have enough money to join this game. Cost: $&6<cost> &7'
+
+## Kit
+cmd-kit-no-change: '&7Je kunt je kit niet veranderen tijdens de game bezig is.'
+
+## Leave
+cmd-leave-left: '&7Je hebt &6<arena> &7verlaten.'
+cmd-leave-refund: '&7You got a refund of $&6<cost> &7for leaving the game before it started'
+
+## Reload
+cmd-reload-attempt: '&7Probeert WINAKGames opnieuw te laden.'
+cmd-reload-reloaded-arena: "&7Arena's zijn opnieuw geladen."
+cmd-reload-reloaded-kit: '&7Kits zijn opnieuw geladen.'
+cmd-reload-reloaded-items: '&7RandomItems zijn opnieuw geladen.'
+cmd-reload-reloaded-config: '&7Configuratiewaarden zijn opnieuw geladen.'
+cmd-reload-reloaded-success: '&7HungerGames is opnieuw geladen.'
+
+## Exit
+cmd-exit-set: '&7Globale exit-spawn-set:'
+cmd-exit-set-arena: '&6<arena> &7verlaat spawn gezet:'
+
+## LobbyWall
+cmd-lobbywall-set: '&7De lobby muur sign is geplaatst.'
+cmd-lobbywall-notcorrect: '&7Deze borden hebben niet het juiste formaat.'
+cmd-lobbywall-format: '&7formaat: [sign] [sign] [sign]'
+lobby-signs:
+  sign-1:
+    line-1: '&0&lWINAK&6&lGames'
+    line-3: '&7Klik om mee te doen'
+    line-4: '&7Cost $&6<cost> &7'
+  sign-2:
+    line-1: '&7Game Status'
+  sign-3:
+    line-1: '&7Levend'
+
+## Start
+cmd-start-starting: '&6<arena> &7is aan het starten.'
+
+## Stop
+cmd-stop-all: '&7Alle games gestopt'
+cmd-stop-arena: '&6<arena> &7is gestopt.'
+cmd-stop-noexist: '&7De game &6<arena> &7bestaat niet.'
+
+## Team
+cmd-team-not-avail: '&6<player> &7is niet beschikbaar.'
+cmd-team-only-leader: '&7Alleen de leider kan andere spelers uitnodigen.'
+cmd-team-on-team: '&6<player> &7zit al in een team.'
+cmd-team-max: '&7Je hebt hey maximale teamlimiet bereikt.'
+cmd-team-invited: '&6<player> &7Is uitgenodigd.'
+cmd-team-wrong: '&7Verkeerd gebruik: &6/winakgames team invite <name>&7.'
+cmd-team-no-pending: '&7Je hebt geen openstaande uitnodigingen...'
+cmd-team-joined: '&6<player> &7heeft je team betreden.'
+cmd-team-no-team: '&7Je zit niet in een team.'
+cmd-team-not-on-team: '&6<player> &7zit niet in je team.'
+cmd-team-tp: '&7Teleporteren naar &6<player>&7'
+cmd-team-self: '&7Je kunt jezelf niet uitnodigen voor je eigen team.'
+
+## Toggle
+cmd-toggle-unlocked: '&6<arena> &7is nu &aONTGRENDELD&7.'
+cmd-toggle-locked: '&6<arena> &7is nu &cVERGRENDELD&7.'
+
+## Handler
+cmd-handler-nokit: '&7Je kunt geen kit kiezen tijdens een game.'
+cmd-handler-nocmd: '&7Je kunt tijdens het gamen geen opdrachten gebruiken die niet van WINAKGames zijn.'
+cmd-handler-playing: '&7Deze speler speelt momenteel WINAKGames.'
+
+## Chest Refill
+cmd-chestrefill-set: '&7Kist hervulling in &6<arena> &7is gezet naar &6<sec> seconds&7.'
+cmd-chestrefill-now: '&7Kisten zijn nu hervuld in &6<arena>&7.'
+
+## Border
+cmd-border-size: '&7Border grootte voor &6<arena> &7is gezet naar &6<size>&7.'
+cmd-border-center: '&7Border midden voor &6<arena> &7is gezet naar jouw locatie&7.'
+cmd-border-timer: '&7Border tijd voor &6<arena> &7is ingesteld om te beginnen met resterend &6<start> seconds &7en stop bij &6<end> seconds&7.'
+
+#  LISTENER
+listener-not-running: '&7De game is niet bezig.'
+listener-no-edit-block: '&7Je kan dit bloktype niet bewerken.'
+listener-no-interact: '&7Je kan pas communiceren als de game is gestart.'
+listener-sign-click-hand: '&7Klik met je hand op het bord.'
+
+#  WAND LISTENER
+listener-wand-create-arena: "Je bent nu klaar om je arena aan te maken met &6/hg create"
+listener-wand-set-pos-2: '&7Nu moet je positie 2 instellen.'
+listener-wand-big-enough: '&7Een arena moet een balk zijn van minstens 5x5x5 groot.'
+
+#  ARENA CHECK
+check-need-more-spawns: '&7Je hebt nog &6<number> &7spawns nodig.'
+check-broken-debug: '&7Je arena is gemarkeerd als kapot. Gebruik &6/winakgames debug <arena> &7om te controleren op fouten.'
+check-broken-debug-2: '&7Als er geen fouten worden gevonden, gebruik &6/winakgames toggle <arena>&7.'
+check-invalid-lobby: '&7Jouw lobby muur is ongeldig. Stel ze opnieuw in.'
+check-set-lobby: '&7Zet de lobby muur: &6/winakgames setlobbywall <arena>&7.'
+check-ready-run: '&7Je WINAKGames-arena &6<arena> &7is klaar voor gebruik.'
+
+#  TRACK STICK
+track-nearest: "&6<player> &7is &6<range> &7blokken verwijderd van jou: &6<location> &7"
+track-no-near: '&7Kan geen spelers in de buurt vinden.'
+track-empty: '&7Deze trackingstick is buiten gebruik.'
+track-bar: '&7[]------------------------------------------[]'
+track-new1: '&7|   You have been given a player-tracking stick.  |'
+track-new2: '&7|   Swing the stick to track players.                 |'
+
+#  LEADERBOARD
+lb-blank-space: '&7'
+lb-combined-separator: '&7: '
